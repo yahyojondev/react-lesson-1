@@ -64,11 +64,16 @@
     width: 100%;
     max-width: 536px;
     border-radius: 20px;
-    display: flex;
+    display: none;
     justify-content: center;
     flex-direction: column;
     box-shadow: 0px 0px 2px 2px gray;
     gap: 17px;
+}
+@media only screen and (min-width:1256px){
+    .article__card__content{
+        display: flex;
+    }
 }
 .article__card__title{
     width: 100%;
