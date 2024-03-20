@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero.js';
 import About from './components/about/About';
 import Service from './components/service/Service';
 import Box from './components/box/Box.js';
+import Article from './components/article/Article.js';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 <About/>
 <Service/>
 <Box/>
+<Article/>
     </>
   );
 }
