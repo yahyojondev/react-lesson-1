@@ -7,6 +7,7 @@ import Service from './components/service/Service';
 import Box from './components/box/Box.js';
 import Article from './components/article/Article.js';
 import Contact from './components/contact/Contact.js';
+import Footer from './components/footer/Footer.js';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 <Box/>
 <Article/>
 <Contact/>
+<Footer/>
     </>
   );
 }

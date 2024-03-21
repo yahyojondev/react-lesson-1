@@ -11,10 +11,10 @@ function Contact() {
                      <h2 className="contact__title">Contact Us</h2>
                      <p className="contact__text">In dignissim euismod pretium amet enim a eu nam ut urna accumsan pellentesque lacus duis pharetra eutortor.</p>
                      <div className="contact__form">
-                        <img src={rasm} alt="" />
+                        <img className='contact__img' src={rasm} alt="" />
                         <div className="contact__number">
                             <p className="number__text">Call us now</p>
-                            <p className="number">(414) 567 - 2109</p>
+                            <a href='#' className="number__link">(414) 567 - 2109</a>
                         </div>
                         
                      </div>
@@ -24,14 +24,35 @@ function Contact() {
                  </div>
                  <div className="contact__right">
                     <form action="" className="contact__right__forms">
-                       <input type="text" />
-                       <input type="text" />
-                       <input type="text" />
-                       <input type="text" />
-                       <input type="text" />
-                       <input type="text" />
+                       <form className="input__form" action="">
+                         <p className="form__text">Full name</p>
+                         <input type="text" />
+                       </form>
+                       <form className="input__form" action="">
+                         <p className="form__text">Phone number</p>
+                         <input type="text" />
+                       </form>
+                       <form className="input__form" action="">
+                         <p className="form__text">Address</p>
+                         <input type="text" />
+                       </form>
+                       <form className="input__form" action="">
+                         <p className="form__text">Email</p>
+                         <input type="text" />
+                       </form>
+                       <form className="input__form" action="">
+                         <p className="form__text">Requested service</p>
+                         <input type="text" />
+                       </form>
+                       <form className="input__form" action="">
+                         <p className="form__text">Day of service</p>
+                         <input type="text" />
+                       </form>
                     </form>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <form className="input__form" action="">
+                      <p className="form__text">Add a note</p>
+                      <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </form>
                     <button className="contact__right__btn">Submit message</button>
                  </div>
             </div>

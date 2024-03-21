@@ -1,10 +1,13 @@
 #contact{
-    padding-top: 400px;
+    padding: 131px 0px 111px;
+    background-color:  rgba(247, 249, 252, 1);;
 }
 .contact__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .contact__left{
     display: flex;
@@ -17,4 +20,117 @@
     display: flex;
     align-items: center;
     gap: 12px;
+}
+.contact__img{
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px gray;
+    border-radius: 50%;
+    padding: 5px;
+}
+.contact__text{
+    width: 100%;
+    max-width: 445px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(110, 113, 145, 1);;
+}
+.number__text{
+    width: 100%;
+    max-width: 123px;
+    font-weight: 400;
+    font-size: 16px;
+    color:  rgba(110, 113, 145, 1);
+}
+.number__link{
+    width: 100%;
+    max-width: 222px;
+    font-size: 20px;
+    font-weight: 700;
+    color:  rgba(33, 31, 84, 1);
+}
+.contsct__four__title{
+    width: 1005;
+    max-width: 244px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(33, 31, 84, 1);;
+}
+.contact__btn{
+    width: 100%;
+    max-width: 200px;
+    padding: 14px 14px;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    color:  rgba(33, 31, 84, 1);
+    transition: 0.5s;
+}
+.contact__btn:hover{
+    background-color:  rgba(0, 117, 255, 1);
+    color: white;
+}
+.contact__right{
+    border-radius: 20px;
+    padding: 84px 61px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+        max-width: 673px;
+        background-color: white;
+}
+.contact__right__forms{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.input__form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input{
+    border: none;
+    outline: none;
+    width: 100%;
+    max-width: 259px;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 2px 2px  rgba(239, 240, 246, 1);
+    font-size: 16px;
+}
+.form__text{
+    width: 100%;
+    max-width: 160px;
+    font-weight: 400;
+    font-size: 18px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    height: 196px;
+    border-radius: 20px;
+    outline: none;
+        box-shadow: 0px 0px 2px 2px rgba(239, 240, 246, 1);
+}
+.contact__right__btn{
+    width: 100%;
+    max-width: 219px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background: rgba(0, 117, 255, 1);
 }
